@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hacker News Demo</string>
+    <string name="top">Top</string>
+    <string name="new_stories">New</string>
+    <string name="best_stories">Best</string>
+    <string name="job_stories">Jobs</string>
+    <string name="show_stories">Shows</string>
+</resources>
