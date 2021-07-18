@@ -30,6 +30,6 @@ class MainActivity : BaseActivity() {
         navController.graph = graph
 
         bottomNavigationView.setupWithNavController(navController)
-        bottomNavigationView.setOnNavigationItemReselectedListener {}
+        bottomNavigationView.setOnItemReselectedListener {}
     }
 }
