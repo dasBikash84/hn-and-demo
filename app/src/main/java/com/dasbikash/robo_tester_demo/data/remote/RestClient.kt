@@ -1,5 +1,6 @@
 package com.dasbikash.robo_tester_demo.data.remote
 
+import com.dasBikash.app_crawler.addAppCrawlerNetworkInterceptor
 import com.google.gson.Gson
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
@@ -12,6 +13,7 @@ object RestClient {
     private val okHttpClient: OkHttpClient by lazy {
         OkHttpClient
             .Builder()
+            .addAppCrawlerNetworkInterceptor()
             .build()
     }
 

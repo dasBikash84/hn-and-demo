@@ -71,4 +71,13 @@ dependencies {
     implementation 'com.github.chrisbanes:PhotoView:2.3.0'
     implementation 'io.coil-kt:coil:1.1.0'
 
+    implementation(name:'app_crawler-1.1-beta', ext:'aar')
+    implementation 'com.github.dasBikash84:app-crawler-model:2.0'
+
+}
+
+repositories{
+    flatDir{
+        dirs 'libs'
+    }
 }
